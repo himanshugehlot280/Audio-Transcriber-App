@@ -1,4 +1,7 @@
-Project Description: Audio Transcription and Analysis App
+Project Description: 
+Audio Transcription and Analysis App
+
+
 Overview:
 This Python project is a Streamlit-based web application designed for transcribing audio files, extracting insights, and performing various analyses on the transcribed text. The application utilizes OpenAI's language model and offers features such as automated audio transcription, chat-style conversation extraction, summarization, and basic analysis of the transcribed content.
 
@@ -19,12 +22,14 @@ Basic Analysis:
 
 Users can perform a simple analysis of the transcribed content.
 The app generates a horizontal bar chart showing word frequency and displays unique user names along with their count.
+
 Project Structure:
 app.py:
 
 The main Streamlit application script containing the user interface and interaction logic.
 Handles file upload, sidebar actions, and displays transcriptions, conversation, summary, and analysis results.
 Utilizes functions from utils.py for audio transcription, conversation extraction, summarization, and analysis.
+
 utils.py:
 
 Contains utility functions for interacting with OpenAI's language model.
