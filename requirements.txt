@@ -6,4 +6,6 @@ python-dotenv
 openai-whisper 
 streamlit 
 nltk 
-langchain-community
+langchain-community  
+ffmpeg
+ffmpeg-python
