@@ -1,0 +1,8 @@
+whisper
+langchain
+pandas
+matplotlib
+python-dotenv
+openai-whisper 
+streamlit 
+nltk
