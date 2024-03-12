@@ -3,13 +3,14 @@ import whisper
 from langchain.llms import OpenAI
 from langchain.agents import initialize_agent 
 # Below Two are additional module for future upgradations 
-from langchain.agents.agent_toolkits import ZapierToolkit
-from langchain.utilities.zapier import ZapierNLAWrapper
+# from langchain.agents.agent_toolkits import ZapierToolkit
+# from langchain.utilities.zapier import ZapierNLAWrapper
 import os 
 from langchain import tools 
 from langchain.prompts import PromptTemplate 
-import json
-from langchain.chat_models import ChatOpenAI
+import json 
+from langchain_community.chat_models import ChatOpenAI
+# from langchain.chat_models import ChatOpenAI
 from langchain.schema import (
     AIMessage,
     HumanMessage,

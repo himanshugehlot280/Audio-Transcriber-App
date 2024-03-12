@@ -5,4 +5,5 @@ matplotlib
 python-dotenv
 openai-whisper 
 streamlit 
-nltk
+nltk 
+langchain-community
